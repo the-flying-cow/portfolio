@@ -180,3 +180,23 @@ footer {
         height: 200px;
     }
 }
+
+body {
+    background-color: black;
+    color:antiquewhite;
+}
+
+#gallery {
+    background-color: darkgray;
+    color: black;
+}
+
+footer {
+    background:grey;
+    color: antiquewhite;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
