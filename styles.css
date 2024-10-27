@@ -99,10 +99,10 @@ footer {
 }
 
 #about {
-    background-color: grey;
-    color: floralwhite;
+    background-color: darkslategrey;
+    color: antiquewhite;
     font-size: medium;
-    line-height: 1.5;
+    line-height: 1.4;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: justify;
@@ -182,13 +182,13 @@ footer {
 }
 
 body {
-    background-color: black;
-    color:antiquewhite;
+    background-color: lightgray;
+    color:black;
 }
 
 #gallery {
-    background-color: darkgray;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 footer {
@@ -197,6 +197,65 @@ footer {
 }
 
 #contact {
-    background-color: black;
-    color: white;
+    background-color: lightslategrey;
+    color: black;
+}
+
+.gallery-link-box {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: dimgray;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.gallery-link-box a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery-link-box a:hover {
+    text-decoration: underline;
+}
+
+#certificates {
+    padding: 30px 20px;
+    background-color: ghostwhite;
+    color: black;
+    text-align: center;
+}
+
+#certificates h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.certificates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.certificates-list li {
+    margin-bottom: 15px;
+}
+
+.certificates-list a {
+    color: blue;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.certificates-list a:hover {
+    text-decoration: underline;
 }
